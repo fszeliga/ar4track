@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/ar4track_app.dir/main.cpp.o  -o ../../ar4track_app -rdynamic ../../libar4track.so.0.1.0 -pthread -Wl,-rpath,/home/filip/Projects/MSc/tracker/build: 
