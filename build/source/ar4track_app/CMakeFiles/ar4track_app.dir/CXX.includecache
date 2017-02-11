@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../source/ar4track/include/ar4track/SensorEventManager.h
+string
+-
+ar4track/ar4track_api.h
+-
+
+../source/ar4track/include/ar4track/info.h
+string
+-
+ar4track/ar4track_api.h
+-
+
+/home/filip/Projects/MSc/tracker/source/ar4track_app/main.cpp
+iostream
+-
+ar4track/SensorEventManager.h
+-
+ar4track/info.h
+-
+
+source/ar4track/include/ar4track/ar4track_api.h
+
